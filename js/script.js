@@ -37,7 +37,7 @@ const onClick = (event) => {
                 document.getElementById(choice).disabled = true;
                 if (checkBoard(playerX,winCombos) === true) {
                     // using .innerHTML for fun purposes
-                    document.getElementById('game-message').innerHTML = '<img src="img/duck-dancing.gif" width="200px">Player X wins!'
+                    document.getElementById('game-message').innerHTML = '<img src="img/duck-dancing.gif" width="200px"><br />Player X wins!'
                 }
             } else {
                 playerO[choice] = 1
@@ -46,13 +46,13 @@ const onClick = (event) => {
                 document.getElementById(choice).style.backgroundColor = "coral"
                 document.getElementById(choice).disabled = true;
                 if (checkBoard(playerO,winCombos) === true) {
-                    document.getElementById('game-message').innerHTML = '<img src="img/duck-dancing.gif" width="200px">Player O wins!'
+                    document.getElementById('game-message').innerHTML = '<img src="img/duck-dancing.gif" width="200px"><br />Player O wins!'
                 }
             }
             arrBoard[choice] = player                         
             turnCount++
             if (turnCount ==9  && winExist == false) {
-                document.getElementById('game-message').innerHTML = '<img src="img/duck-dancing.gif" width="200px">Draw! Good game!'
+                document.getElementById('game-message').innerHTML = '<img src="img/duck-dancing.gif" width="200px"><br />Draw! Good game!'
             }
         } while (document.getElementById("0").innerText.length ==0);
     }
