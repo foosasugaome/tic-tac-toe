@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 .title-header {
-    width: 600px;
+    width: auto;
     text-align: center;
     /* border: .1rem solid; */
     font-family: var(--primary-font);
@@ -27,7 +27,10 @@ body {
     font-family: var(--primary-font);
     font-size: 30px;
 }
-
+.wrapper {
+    width: 100%;    
+    text-align: center;    
+}
 .button-board {
     width: 200px;
     height: 200px;    
