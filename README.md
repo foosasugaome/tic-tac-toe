@@ -5,10 +5,6 @@
 * Build a tic tac toe game in HTML, CSS, and vanilla JavaScript
 * Use best practices when writing code
 
-This week we have been learning about writing functions, working with loops, and writing conditionals. We also learned about HTML, CSS, and the DOM.
-
-We will be making a Tic Tac Toe game using all of these concepts.
-
 ## Getting Started
 
 * Before you even start working with JavaScript, construct the gameboard. The gameboard page should include the 3x3 grid (of divs), and at minimum a reset button. Using `id` and/or `class` on clickable elements will help you wire this up in JavaScript afterwards.
