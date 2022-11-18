@@ -26,24 +26,8 @@ We will be making a Tic Tac Toe game using all of these concepts.
 * Display a message to indicate which turn is about to be played.
 * Detect draw conditions (ties/cat's game) 
 * Detect winner: Stop game and declare the winner if one player ends up getting three in a row. 
-  * Hint: Determine a set of winning combinations. Check those combinations on the board contents after every move.
 
-**Have Fun** - The best way to learn is by playing with code. Let creativity guide you and try some experiments with JS and CSS and see what you can do.
-
-## Bonuses
-
-* Implement your reset button without refreshing the whole page
-* Track player's wins over time
-* Add a simple AI to support one player vs computer mode. In this case, "simple" just means having the computer pick a random empty square.
-* Make your computer seem more human by adding a short time delay between your turn and the computer's turn.
-* Style it up! Get creative, or even make a theme!
-
-## Super Duper Bonus
+## TO DO
 
 * Add an AI that can beat you every time with the mini-max algorithm.
 
----
-
-## Licensing
-1. All content is licensed under a CC-BY-NC-SA 4.0 license.
-2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
